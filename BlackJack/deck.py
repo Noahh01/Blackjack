@@ -29,7 +29,6 @@ class deck:
     def discardCard(self, num = 1):
         
         if num > len(self.deck):
-            print("This might have caused an error so I didn't go ahead with the operation: discard card method")
             return None
 
         for x in range (num):
